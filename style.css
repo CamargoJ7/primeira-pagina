@@ -1,0 +1,186 @@
+@font-face {
+  font-family: android;
+  src: url(fontes/idroid.otf) format("Opentype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo {
+  font-size: 1.2em;
+  text-indent: 2em;
+}
+
+.titulo-da-pagina {
+  font-family: monospace;
+  font-size: 3em;
+}
+
+.descricao-da-pagina {
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-image: linear-gradient(
+    to bottom,
+    #3bd27f,
+    #31b06a,
+    #278a53,
+    #1d683e,
+    #185333
+  );
+
+  height: 200px;
+  width: 100%;
+  color: white;
+}
+
+header > h1 {
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+}
+
+header > p {
+  text-align: center;
+}
+
+nav {
+  background-color: #185333;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.menu-navegacao:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: white;
+  padding: 20px 0 5px 0;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: auto;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.342);
+}
+
+.video iframe {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#bugdroid {
+  max-width: 300px;
+}
+
+.titulos-texto-principal {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: android;
+  color: #185333;
+  font-size: 1.5em;
+  background-image: linear-gradient(
+    to right,
+    #c5ebd6,
+    #b4d5c2,
+    #e6f7ed,
+    #f3fbf7,
+    #fefffe
+  );
+}
+
+.texto-principal {
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.a-primeira-versao {
+  text-align: center;
+}
+
+.a-primeira-versao > h1 {
+  text-align: left;
+}
+
+.a-ideia {
+  text-align: center;
+}
+
+.a-ideia > h1 {
+  text-align: left;
+}
+
+.a-ideia > picture > img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  min-height: 20px;
+  max-height: 40px;
+  color: white;
+  text-align: center;
+  background-color: #185333;
+}
+
+.video {
+  min-width: 280px;
+  margin: 10px 0 0 0;
+  text-align: center;
+  background-color: #185333;
+}
+
+.aprender-mais {
+  margin: 12px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  background-color: #c5ebd6;
+}
+
+.titulo-aprender-mais > h2 {
+  padding-left: 5px;
+}
+
+.titulo-aprender-mais {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  background-color: #31b06a;
+}
+
+.conteudo-aprender-mais > p {
+  padding: 10px;
+}
+
+.lista {
+  list-style: none;
+  margin-left: 25px;
+  columns: 2;
+}
+
+.lista > li::before {
+  content: "✓ ";
+}
+#fim-conteudo {
+  margin-left: 25px;
+  font-size: 1.2em;
+  text-indent: 2em;
+}
